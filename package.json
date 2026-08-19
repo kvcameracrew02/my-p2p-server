@@ -1,0 +1,12 @@
+{
+  "name": "my-p2p-server",
+  "version": "1.0.0",
+  "description": "P2P Signaling Server",
+  "main": "index.js",
+  "scripts": {
+    "start": "peerjs --port 10000"
+  },
+  "dependencies": {
+    "peerjs": "^1.4.7"
+  }
+}
