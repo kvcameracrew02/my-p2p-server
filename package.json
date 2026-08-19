@@ -4,6 +4,7 @@
   "description": "P2P Signaling Server",
   "main": "index.js",
   "scripts": {
+    "prestart": "npm install -g peer",
     "start": "peerjs --port $PORT"
   },
   "dependencies": {
