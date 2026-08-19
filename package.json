@@ -4,7 +4,7 @@
   "description": "P2P Signaling Server",
   "main": "index.js",
   "scripts": {
-    "start": "peerjs --port 10000"
+    "start": "peerjs --port $PORT"
   },
   "dependencies": {
     "peerjs": "^1.4.7"
